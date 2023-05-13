@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+}
+header {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+    
+h2 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
+}
+section h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+ol {
+    font-weight: bold;
+}
+.container {
+display:flex;
+justify-content: center;
+align-items: center;
+}
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2px;
+}
+footer p {
+    color: black;
+    text-align: center;
+    font-size: .8em;
+    padding-top: 1%;
+}
+header:hover {
+    color: black;
+}
