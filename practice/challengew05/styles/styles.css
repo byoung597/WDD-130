@@ -1,0 +1,29 @@
+body {
+    margin: 0px auto;
+    background-color: gray;
+}
+.header {
+    width: 100%;
+}
+section {
+    display: block;
+    text-align: center;
+    margin-top: 2.5%;
+}
+.desk_icon {
+    width: 15%;
+    border: 5px darkslategray;
+    border-radius: 50%;
+    margin-right: 8%;
+}
+.graphic_icon {
+    width: 15%;
+    border: 5px darkslategray;
+    border-radius: 50%;
+}
+.person_icon {
+    width: 15%;
+    border: 5px darkslategray;
+    border-radius: 50%;
+    margin-left: 8%;
+}

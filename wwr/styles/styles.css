@@ -38,7 +38,7 @@ body {
 }
 header {
     background-color:#4c5454;
-    font-family: "Bangers";
+    font-family: "Bangers", Helvetica, sans-serif;
 }
 nav a:hover {
     color: #2c688a;
