@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+header {
+    width: 80%;
+}
+.cherry {
+    width: 1fr;
+}
+
