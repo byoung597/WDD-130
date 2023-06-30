@@ -1,8 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=PT+Serif&display=swap');
+
+body {
+    background-color: #f3f7f0;
+}
+header {
+    font-family: "Marcellus SC", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background-color: #c41515;
+}
+header a {
+    font-size: 50px;
+    color: #e1ad66;
+    text-decoration: none;
+}
+#navs {
+    margin-left: 100px;
+}
+header a:hover {
+    font-size: 53px;
+    color: #36413e;
+}
+#navp {
+    margin-right: 100px;
+}
 .logo {
-    width: 200px;
+    width: 175px;
+    margin: auto auto auto 35%;
+    margin-bottom: -14px;
+}
+.logo:hover {
+    width: 160px;
+}
+h1 {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: -30px;
+    background-color: #f3f7f0;
+    font-family: "PT Serif", Helvetica, Serif;
+}
+h4 {
+    font-size: 20px;
+    text-align: center;
+    background-color: #f3f7f0;
+    font-family: "PT Serif", Helvetica, Serif;
+}
+main {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    margin-top: 50px;
+    background-color: #f3f7f0;
+    font-family: "PT Serif", Helvetica, Serif;
 }
 .card-image {
-    width: 200px;
+    height: 98%;
+    width: 98%;
+}
+.msg-1 {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: "PT Serif", Helvetica, Serif;
+}
+.msg-1 p {
+    font-size: 30px;
+    margin-top: -25px;
+    font-family: "PT Serif", Helvetica, Serif;
+}
+.msg-1 h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.msg-2 {
+    width: 300%;
+    align-content: center;
+    font-family: "PT Serif", Helvetica, Serif;
+}
+.msg-2 p {
+    font-size: 30px;
+    margin-left: 10%;
+}
+.msg-2 h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
 }
 .lion {
     width: 200px;
@@ -15,4 +96,37 @@
 }
 .unity {
     width: 200px;
+}
+footer {
+    background-color: #36413e;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Marcellus SC", Helvetica, Serif;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+footer p {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+footer a:hover {
+    color: gray;
+    font-size: 35px;
+}
+footer p a:hover{
+    font-size: 32px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer .social img:hover {
+    width: 68px;
 }
