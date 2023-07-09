@@ -137,7 +137,7 @@ a {
   }
   
   a:hover {
-    background-color: #ddd;
+    background-color: #c41515;
     color: black;
   }
   
@@ -153,4 +153,7 @@ a {
   
   .round {
     border-radius: 50%;
+  }
+  .logo {
+    margin-right: 30px;
   }
