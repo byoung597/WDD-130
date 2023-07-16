@@ -86,22 +86,26 @@ main {
     text-align: center;
 }
 .lion {
-    width: 200px;
+    width: 100%;
+    margin-bottom: 100px;
 }
 .piano-img {
-    width: 200px;
+    width: 100%;
+    margin-top: 100px;
 }
 .piano2 {
-    width: 200px;
+    width: 75%;
+    margin-bottom: 50px;
 }
 .unity {
-    width: 200px;
+    width: 75%;
+    margin-top: 50px;
 }
 footer {
     background-color: #36413e;
     color: white;
     padding: 25px 50px;
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -136,12 +140,12 @@ a {
     padding: 8px 16px;
   }
   
-  a:hover {
+    a:hover {
     background-color: #c41515;
     color: black;
   }
   
-  .previous {
+    .previous {
     background-color: #c41515;
     color: #e1ad66;
   }
@@ -154,6 +158,37 @@ a {
   .round {
     border-radius: 50%;
   }
-  .logo {
+.logo {
     margin-right: 30px;
   }
+.soundtracks-block {
+    margin: 45px;
+    font-family: "PT Serif", Helvetica, Serif;
+    font-size: 20px;
+  }
+.lionking-block {
+    margin: 45px;
+    font-family: "PT Serif", Helvetica, Serif;
+    font-size: 20px;
+  }
+.soundtracks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#sources {
+    margin-bottom: 50px;
+}
+.philanthropy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.causes-block {
+    margin: 45px;
+    font-family: "PT Serif", Helvetica, Serif;
+    font-size: 20px;
+}
+.aidsfoundation-block {
+    margin: 45px;
+    font-family: "PT Serif", Helvetica, Serif;
+    font-size: 20px;
+}
